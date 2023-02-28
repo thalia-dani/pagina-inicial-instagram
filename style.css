@@ -132,14 +132,14 @@ body {
 
 @media (max-width:1024px) {
     .container {
-        width: 90vw; 
+        width: 90%; 
     }
 }
 
 @media (max-width:768px) {
 
-    .container { 
-        width: 90vw;
+    .container {
+        width: 90%;
     }
 
     .container__phone {
@@ -147,11 +147,11 @@ body {
     }
 
     .container__continue {
-        width: 90vw;   
+        width: 90%;   
     }
 
     .continue__group {
-        border: none;
+        border: 1px solid transparent;
     }
 }
 
