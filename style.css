@@ -25,7 +25,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: start;
-    width: 60%;
+    width: 50%;
     height: 100vh;
 }
 
@@ -130,7 +130,7 @@ body {
     background-image: url(/img/googleplay-button.png);
 }
 
-@media (max-width:1024px) {
+@media (max-width:1300px) {
     .container {
         width: 90%;
     }
@@ -148,6 +148,7 @@ body {
 
     .container__continue {
         width: 100%;
+        
     }
 
     .continue__group {
