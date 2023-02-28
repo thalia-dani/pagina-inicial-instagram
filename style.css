@@ -132,19 +132,14 @@ body {
 
 @media (max-width:1024px) {
     .container {
-        width: 90%; 
+        width: 90vw; 
     }
 }
 
 @media (max-width:768px) {
 
-    *{
-        font-size: 18px;
-    }
-
     .container { 
-        width: 90%;
-        margin: auto; 
+        width: 90vw;
     }
 
     .container__phone {
@@ -152,41 +147,11 @@ body {
     }
 
     .container__continue {
-        width: 90%;   
-        margin: auto;
+        width: 90vw;   
     }
 
     .continue__group {
         border: none;
-    }
-}
-
-@media (max-width:375px) {
-
-    *{
-        font-size: 14px;
-    }
-
-    .container { 
-        width: 90%;
-        
-    }
-
-    .container__phone {
-        display: none;
-    }
-
-    .container__continue {
-        width: 90%;   
-        
-    }
-
-    .continue__group {
-        border: none;
-    }
-
-    .app__download{
-        justify-content: center;
     }
 }
 
